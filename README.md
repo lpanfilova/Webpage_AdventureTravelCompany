@@ -1,5 +1,5 @@
 # Webpage_AdventureTravelCompany
 Web Page HTML/CSS
 
-![](screenshot1.png)
-![](screenshot2.png)
+![](screenshot1.PNG)
+![](screenshot2.PNG)
