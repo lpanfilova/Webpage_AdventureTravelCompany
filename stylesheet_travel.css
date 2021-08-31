@@ -1,0 +1,122 @@
+    body {
+        background-color: #F8F8FF;
+        font-family: Helvetica, sans-serif;
+        color: black;
+        font-size: 100%;
+        margin: 0px;
+    }
+    
+    #hero{
+        background-image: url('bg_image.jpg');
+        height: 100vh;
+        background-size: cover;
+        text-align: center;
+        margin: 0px; 
+    }
+    
+    #experiences{
+        display: grid;
+        grid-template-columns: minmax(200px, 1fr) minmax(200px, 1fr) minmax(200px, 1fr) minmax(200px, 1fr);
+        grid-template-rows: 400px 400px;
+        grid-gap: 50px auto;
+        margin: 0px 0px 78px 0px;
+        align-items: center;
+        justify-items: center;
+        justify-content: center;
+    }
+    
+    h1, #center_text{
+        transform: translate(0vh, 40vh);
+        color: #ffffff;        
+    }
+    
+    h1{
+        font-size: 40px;  
+    }
+    
+    #center_text{
+        font-size: 30px;  
+    }
+    
+    h2{
+        font-size: 30px;
+        color: #2b2a29;
+        text-align: center;        
+    }
+    
+    header, footer{
+        background-color: #2b2a29;
+        color: #ffffff;
+        height: 48px;
+        margin: 0px;
+        padding: 0px;
+        position: fixed;
+        width: 100%;
+    }
+    
+    header{
+        top: 0;
+        z-index:1;
+    }
+    
+    footer{
+        bottom: 0;
+        text-align: center;
+        font-weight: bold;
+    }
+    
+    ul {
+        list-style-type: none;   
+    }
+    
+    li {
+        display: inline;
+    }
+    
+    a.menu_link{
+        text-decoration: none; 
+        color: white;
+        font-size: 18px;
+        line-height: 14px;
+        font-weight: bold;
+        padding: 14px 14px;
+        text-align: center;
+        margin: 0px;
+    }
+    
+    a.menu_link:hover, a.menu_link:active{ 
+        background-color: rgba(255,255,255, 0.25);
+        margin: 0px;
+    }
+    
+    .experience_image{
+        max-width: 180px;
+        max-height: 200px;
+    }
+    
+    .exp_name{
+        color: #2b2a29;
+        font-weight: bold;
+        line-height: 10px;
+    }
+    
+    .price{
+        line-height: 10px;
+        margin: 0px 0px 30px 0px;
+    }
+    
+    a.book_link:link, a.book_link:visited{
+        background-color: rgb(20,78,124);
+        color: #ffffff;
+        font-size: 17px;
+        padding: 10px 10px;
+        text-align: center;
+        text-decoration: none;
+        margin: 0px;
+        border-radius: 8px;
+    }
+    
+    a.book_link:hover, a.book_link:active{ 
+        background-color: rgba(20,78,124, 0.8);
+        cursor:pointer;
+    }
